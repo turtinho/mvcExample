@@ -1,0 +1,14 @@
+html    
+    head 
+        title Listagem de Produtos 
+    body 
+        h1 Listagem de Produtos 
+        a(href = '/products/form') Formulario de Produtos
+<!--criando uma listagem não ordenada
+percorrendo cada item, mostrando o valor do product (valor name) -->
+        ul 
+<!--          apelido      array             -->
+         each product in products
+            li= product.name
+        
+
