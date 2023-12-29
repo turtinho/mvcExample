@@ -1,0 +1,16 @@
+html    
+    head 
+        title Listagem Total 
+    body 
+        h1 Listagem Total 
+        p Caminho de volta ao index: 
+            a(href='/') Index
+        br
+        h7 Distribuidor
+        ul 
+         each distribuct in distribucts
+            li= distribuct.name
+        h7 Produto
+         each product in products
+            li= product.name
+

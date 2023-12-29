@@ -1,0 +1,16 @@
+html    
+    head 
+        title Listagem de Distribuidores e Produtores 
+    body 
+        h1 Listagem de Distribuidores e Produtores 
+        a(href = '/distribucts/form') Formulario de Distribuidores e Produtores 
+        br
+        br
+        p Caminho de volta ao index: 
+            a(href = '/') Index
+
+        ul 
+         each distribuct in distribucts
+            li= distribuct.name
+        
+

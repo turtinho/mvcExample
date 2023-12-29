@@ -1,0 +1,15 @@
+html    
+    head 
+        title Formulário de Distribuidores e Produtores
+    body 
+        h1 Formulário de Distribuidores e Produtores
+        a(href = '/distribucts') Listagem de Distribuidores
+        br
+        br
+        form(action='/distribucts/create',method="post")
+            label Nome da Marca 
+                input(name ='name',requerid,type='text')
+            button(type="submit") Salvar
+
+
+            
